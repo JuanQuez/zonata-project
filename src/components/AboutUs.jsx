@@ -23,7 +23,7 @@ const AboutUsContainer = styled.section`
 
     h2 {
       margin-bottom: .5em;
-      font-size: 3em;
+      font-size: 5em;
     }
 
     p {
@@ -38,6 +38,8 @@ const AboutUsContainer = styled.section`
     place-items: center;
 
     img {
+      border: .5em solid white;
+      border-radius: 30%;
     }
   }
 `;
@@ -52,7 +54,7 @@ const AboutUs = () => {
         </p>
       </div>
       <div className="box_image">
-        <img src="public\assets\img\Captura de pantalla 2024-03-11 231133.png" alt=""/>
+        <img src="public\assets\img\Captura de pantalla 2024-03-11 231921.png" alt=""/>
       </div>
     </AboutUsContainer>
   );

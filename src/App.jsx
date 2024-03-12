@@ -1,5 +1,5 @@
 import AboutUs from "./components/AboutUs"
-import Footer from "./components/Footer"
+import Contact from "./components/Contact"
 import Service from "./components/Service"
 import Header from "./components/head/Header"
 
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <AboutUs />
       <Service />
-      <Footer />
+      <Contact/>
     </>
   )
 }
