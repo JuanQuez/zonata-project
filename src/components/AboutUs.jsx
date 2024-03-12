@@ -54,7 +54,7 @@ const AboutUs = () => {
         </p>
       </div>
       <div className="box_image">
-        <img src="public\assets\img\Captura de pantalla 2024-03-11 231921.png" alt=""/>
+        <img src="/public/assets/img/about-zone.png" alt=""/>
       </div>
     </AboutUsContainer>
   );
