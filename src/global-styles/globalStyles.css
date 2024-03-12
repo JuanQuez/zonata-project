@@ -1,0 +1,95 @@
+/* CUSTOM FONTS */
+@font-face {
+  font-family: Futura;
+  src: url(/public/assets/fonts/titles/Futura-Std-Light.otf);
+}
+@font-face {
+  font-family: Comforta;
+  src: url(/public/assets/fonts/titles/Comfortaa-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Engravers;
+  src: url(/public/assets/fonts/text/EngraversGothic-BT-Regular.ttf);
+}
+
+:root {
+  /* FONTS */
+  --font-title-primary: Futura;
+  --font-title-secondary: Engravers;
+  --font-text: Comforta;
+
+  /* BASE COLORS */
+  --color-black-pure: #000;
+  --color-white-pure: #fff;
+
+  /* PALETTE COLORS */
+  --color-primary: #57385c;
+  --color-secondary: #a75265;
+  --color-tertiary: #ec7263;
+  --color-quaternary: #febe7e;
+
+  /* OTHERS VARIANTS */
+  --cap-overlay: rgba(0, 0, 0, 0.5);
+}
+
+* {
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+body {
+  min-height: 100dvh;
+}
+
+/* scrollbar custom */
+::-webkit-scrollbar {
+  width: 0.3em;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 2em;
+}
+
+h1 {
+  font-family: var(--font-title-primary);
+}
+
+h2, a, button {
+  font-family: var(--font-title-secondary);
+}
+
+p,
+h3 {
+  font-family: var(--font-text);
+}
+
+p {
+  word-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
