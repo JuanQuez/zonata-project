@@ -2,6 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import "https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js";
 import ButtonStyle from "./button-desing/ButtonStyle";
+import Bedroom from "/public/assets/img/bedroom.png";
+import ZonesInterect from "/public/assets/img/zones-recreation.png";
+import BarTender from "/public/assets/img/bar.png";
 
 const ServiceContainer = styled.section`
   min-height: 100dvh;
@@ -53,33 +56,13 @@ const ServiceContainer = styled.section`
 `;
 
 const Service = () => {
-  const servicesData = [
-    {
-      title: "",
-      price: "",
-      image: `/public/assets/img/Captura de pantalla 2024-03-12 001404.png`,
-      description: "",
-    },
-    {
-      title: "",
-      price: "",
-      image: `/public/assets/img/Captura de pantalla 2024-03-12 001619.png`,
-      description: "",
-    },
-    {
-      title: "",
-      price: "",
-      image: `/public/assets/img/Captura de pantalla 2024-03-12 001647.png`,
-      description: "",
-    },
-  ];
   return (
     <ServiceContainer id="services">
       <div className="box_cards">
         <div className="card">
           <div className="box__image">
             <img
-              src="public\assets\img\Captura de pantalla 2024-03-12 001404.png"
+              src={Bedroom}
               alt=""
             />
           </div>
@@ -97,7 +80,7 @@ const Service = () => {
         <div className="card">
           <div className="box__image">
             <img
-              src="/public/assets/img/Captura de pantalla 2024-03-12 001619.png"
+              src={BarTender}
               alt=""
             />
           </div>
@@ -115,7 +98,7 @@ const Service = () => {
         <div className="card">
           <div className="box__image">
             <img
-              src="/public/assets/img/Captura de pantalla 2024-03-12 001647.png"
+              src={ZonesInterect}
               alt=""
             />
           </div>
