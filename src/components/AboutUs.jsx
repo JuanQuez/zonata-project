@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import "https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js";
+import PhotoAbout from "/public/assets/img/about-zone.png"
 
 const AboutUsContainer = styled.section`
   display: flex;
@@ -54,7 +54,7 @@ const AboutUs = () => {
         </p>
       </div>
       <div className="box_image">
-        <img src="/public/assets/img/about-zone.png" alt=""/>
+        <img src={PhotoAbout} alt=""/>
       </div>
     </AboutUsContainer>
   );
